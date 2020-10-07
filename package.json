@@ -1,0 +1,23 @@
+{
+    "name": "node-js-rest-api",
+    "version": "1.0.0",
+    "description": "A Node.js REST API",
+    "main": "gulpfile.js",
+    "scripts": {
+        "start": "node server/server.js"
+    },
+    "keywords": [
+        "nodejs",
+        "restful",
+        "api",
+        "expressjs"
+    ],
+    "author": "Bryan Mendoza",
+    "devDependencies": {
+        "body-parser": "^1.14.2",
+        "express": "^4.13.4",
+        "gulp": "^3.9.0",
+        "lodash": "^4.0.1",
+        "morgan": "^1.6.1"
+    }
+}
