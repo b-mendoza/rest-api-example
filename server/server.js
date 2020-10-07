@@ -7,7 +7,7 @@ var app = express();
 var port = 4000;
 
 app.use(morgan('dev'));
-app.use(express.static('docs'));
+app.use(express.static('public'));
 
 // Enable CORS on ExpressJS to avoid cross-origin errors when calling this server using AJAX
 // We are authorizing all domains to be able to manage information via AJAX (this is just for development)
